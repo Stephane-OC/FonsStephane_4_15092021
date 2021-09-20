@@ -7,6 +7,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -362,6 +363,7 @@ a:hover {
     z-index: 2;
 }
 
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -646,13 +648,42 @@ h4,
 h5,
 h6,
 p,
-label,
 .btn,
+
+label{
+    color: black;
+}
+
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: white;
 }
+
+.h2--titlestyle{
+    color: #333333;
+    font-weight: 600;
+}
+                            
+.h2--titrestyle--italic{
+    font-style: italic;
+}
+
+.p--style{
+    font-size: 1em;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.text-size{
+    font-size: 1em;
+}
+
+.footer--h3{
+    color: white;
+    font-size: 0.8em;
+}
+
 
 .container {
     max-width: 1000px;
@@ -713,7 +744,6 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
 }
 
 .med-width-whitespace {
@@ -771,11 +801,37 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
+    background-color: #353535;
+}
+
+.text-colorgrey{
+    color: #353535;
+}
+
+.text-colorwhite{
+    color: white;
+    z-index: 1;
+    position: relative;
+}
+
+.text-colorblack{
+    color: black;
+}
+
+.banner{
     background-color: #F3976C;
+}
+
+.size{
+    font-weight: 600;
 }
 
 .tc-white {
     color: #F3976C!important;
+}
+
+.tc-whitee {
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
